@@ -12,4 +12,4 @@ Receives syslog messages and publish it on mqtt
 3. `vim ./mqtt-syslog.py`
 4. Replace all the mqtt parameter with your values
 5. `docker build . -t mqtt-syslog`
-6. `docker run -it -p 514:514 mqtt-syslog`
+6. `docker run -d -p 514:514 mqtt-syslog`
